@@ -71,11 +71,11 @@ function writeHours() {
         
         //assign past/present/future
         if (moment().hour() == workHour24[workHour.indexOf(hour)]) {
-            hourDiv.addClass("present");
+            hourDiv.children(`#${hour}`).addClass("present");
         } else if (moment().hour() > workHour24[workHour.indexOf(hour)]) {
-            hourDiv.addClass("past");
+            hourDiv.children(`#${hour}`).addClass("past");
         } else if (moment().hour() < workHour24[workHour.indexOf(hour)]) {
-            hourDiv.addClass("future");
+            hourDiv.children(`#${hour}`).addClass("future");
         }
 
         $(".container").append(hourDiv);
