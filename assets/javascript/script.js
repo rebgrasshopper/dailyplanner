@@ -61,7 +61,7 @@ function getLocalStorageOrDefault(key){
 function writeHours() {
     for (let hour of workHour) {
         //create blocks
-        const hourDiv = $(`<div id="${hour}-row" class="row time-block"><div id="${hour}-div" class="hour col-1">${hour}</div><textarea id="${hour}" class="col-10"></textarea><button id="${hour}-btn" value="${hour}" class="saveBtn btn col-1 icon-save"></button></div>`);
+        const hourDiv = $(`<div id="${hour}-row" class="row time-block"><div id="${hour}-div" class="hour col-2 col-md-1">${hour}</div><textarea id="${hour}" class="col-8 col-sm-9 col-md-10"></textarea><button id="${hour}-btn" value="${hour}" class="saveBtn btn col-2 col-sm-1 icon-save"></button></div>`);
 
         //retrieve and assign text
         const hourText = hourDiv.children(`#${hour}`);
