@@ -14,7 +14,7 @@ Table of Contents:
 
 ## Introduction ##
 
-This project can be accessed from any browser on an internet-connected device. It is a simple work calendar featuring dynamically updated HTML and CSS powered by jQuery, with dates from moment.js. It contains textareas which can be edited and saved via attached buttons. The textarea values save to local storage and automatically load upon page initialization.
+This project can be accessed from any browser on an internet-connected device. It is a simple work calendar featuring dynamically updated HTML and CSS powered by jQuery, with dates from moment.js. It contains textareas which autosave as the user types. The textarea values save to local storage and automatically load upon page initialization.
 
 ## Usage ##
 
