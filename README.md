@@ -1,46 +1,44 @@
 # 05 Third-Party APIs: Work Day Scheduler
+A work day planning web application.
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+![screenshot of work day scheduler](./assets/images/screenshot.png)
+https://rebgrasshopper.github.io/dailyplanner/
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
-## User Story
+Table of Contents:
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+- [Section 1: Introduction](#introduction)
+- [Section 2: Usage](#usage)
+- [Section 3: Credits](#credits)
+- [Section 4: License](#license)
 
-## Acceptance Criteria
+## Introduction ##
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+This project can be accessed from any browser on an internet-connected device. It is a simple work calendar featuring dynamically updated HTML and CSS powered by jQuery, with dates from moment.js. It contains textareas which can be edited and saved via attached buttons. The textarea values save to local storage and automatically load upon page initialization.
 
-The following animation demonstrates the application functionality:
+## Usage ##
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+The source files for this quiz can be accessed through cloning the GitHub repo. The link above will take you to the deployed project.
 
-## Review
+## Credits ##
 
-You are required to submit the following for review:
+Thanks to my coding co-op, and you can catch some of 'em here:
 
-* The URL of the deployed application.
+- [Zachary Bryan](https://github.com/zacharybryan)
+- [Tim Sanders](https://github.com/tbsanders5)
+- [Nick Konzen](https://github.com/NTKonzen)
+- [Kira Bismuth Lowrey](https://github.com/KILowrey)
+- [Nancy Lambert-Brown](https://github.com/n-lambert)
+- [Mando Estrada](https://github.com/Mando619)
+- [Talia Vazquez](https://github.com/taliavazquez)
+- [Perry Theobald](https://github.com/perrytjr)
+- [Jeneth Diestra](https://github.com/jen6one9)
+- [Matthew Rogers](https://github.com/Rogers-Development-Services)
+- [Jefrrey Choi](https://github.com/jepoy92)
+- [Clyde Baron Rapinan](https://github.com/clydebaron2000)
+- [Johnny Lieu](https://github.com/johnnylieu)
+- [Robert Graham](https://github.com/Robmgraham)
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## License ##
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+GNU General Public License
